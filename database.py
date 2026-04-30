@@ -1,6 +1,6 @@
 import sqlite3
 import os
-
+os.makedirs("data", exist_ok=True)
 DB_PATH = "data/athletes.db"
 
 def creer_base_de_donnees():
